@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    padding: 8px 5px;
+}
+
+.left-buttons {
+    float: left;
+    padding: 5px 5px;
+}
+
+.left-buttons button {
+    background-color: transparent;
+    border: 0;
+}
+
+.left-buttons button:hover {
+    border-radius: 3px;
+}
+
+.left-buttons > .menu-btn {
+    margin-left: 15px;
+}
+
+.left-buttons > .search-btn {
+    margin: auto 20px;
+}
+
+.left-buttons svg{
+    width: 16px;
+    height: 16px;
+}
+
+.left-link {
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
