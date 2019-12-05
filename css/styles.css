@@ -1,3 +1,4 @@
+/* <<<<< BASIC SETTINGS >>>>> */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,21 +8,25 @@
 header {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-bottom: 1px solid lightgray;
-    height: 40px;
-    padding: 8px 5px;
+    height: 45px;
+    padding: 4px 15px 2px;
 }
 
+/* <<<<< 1st Div IN HEADER >>>>> */
 .left-buttons {
     float: left;
-    padding: 5px 5px;
 }
 
 .left-buttons button {
+    margin-top: 10px;
     background-color: transparent;
     border: 0;
+    width: 35px;
+    height: 20px;
 }
 
 .left-buttons button:hover {
+    background-color: #f7f7f7;
     border-radius: 3px;
 }
 
@@ -36,10 +41,50 @@ header {
 .left-buttons svg{
     width: 16px;
     height: 16px;
+    vertical-align: sub;
 }
 
 .left-link {
     text-decoration: none;
-    font-weight: bolder;
+    font-size: 14.25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    line-height: 19px;
     color: black;
 }
+
+.left-link:hover {
+    border-bottom: 1px solid black;
+}
+
+/* <<<<< NYT LOGO >>>>>>> */
+.nyt-svg {
+    height: 27px;
+}
+
+div.nyt-logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* <<<<< RIGHT BUTTONS >>>>>>> */
+div.right-buttons {
+    float: right;
+}
+
+.right-buttons button {
+    background: #567B95;
+    padding: 12px 10px 8px;
+    border: 2px solid #567B95;
+    border-radius: 3px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 11px;
+}
+
+.right-buttons button:hover {
+    cursor: pointer;
+}
+
