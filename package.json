@@ -1,0 +1,23 @@
+{
+  "name": "nyt-clone",
+  "version": "1.0.0",
+  "description": "This is a basic html/css remake of the new york times website using css float",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srueda27/NYT-Clone.git"
+  },
+  "author": "Santiago Rueda Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srueda27/NYT-Clone/issues"
+  },
+  "homepage": "https://github.com/srueda27/NYT-Clone#readme",
+  "devDependencies": {
+    "stylelint": "^12.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
