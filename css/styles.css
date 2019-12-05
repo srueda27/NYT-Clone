@@ -10,6 +10,9 @@ header {
     border-bottom: 1px solid lightgray;
     height: 45px;
     padding: 4px 15px 2px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* <<<<< 1st Div IN HEADER >>>>> */
