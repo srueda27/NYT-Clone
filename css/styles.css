@@ -80,7 +80,8 @@ div.right-buttons {
     float: right;
 }
 
-.right-buttons button {
+.right-buttons button,
+aside.signup button {
     background: #567B95;
     padding: 12px 10px 8px;
     border: 2px solid #567B95;
@@ -205,15 +206,28 @@ main {
     height: 24px;
 }
 
-/* Paragraphs */
+/* First ASIDE */
 
-aside {
+aside.signup {
     float: right;
-    width: 100px;
-    height: 200px;
-    margin: 100px 50px;
-    background-color: turquoise;
+    width: 180px;
+    margin: auto 4em;
 }
+
+aside.signup p{
+    font-size: 14px;
+    color: gray;
+    margin: 8px 0;
+}
+
+aside.signup button {
+    width: 100%;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+/* Paragraphs */
 
 .content-section {
     width: 600px;
