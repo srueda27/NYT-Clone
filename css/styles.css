@@ -69,9 +69,10 @@ header {
 }
 
 div.nyt-logo {
-    width: 100%;
+    width: calc(100% - 30px);
     text-align: center;
     margin-top: 5px;
+    position: absolute;
 }
 
 /* <<<<< RIGHT BUTTONS >>>>>>> */
@@ -99,11 +100,6 @@ div.right-buttons {
 main {
     position: relative;
     top: 45px;
-}
-
-main > section:not(.article-title) {
-    width: 600px;
-    margin: 0 auto;
 }
 
 .article-title {
@@ -143,16 +139,26 @@ main > section:not(.article-title) {
 
 /* Logos */
 
-.logos li{
-    display: inline;
+.social-media-logos {
+    width: 600px;
+    text-align: left;
+    margin: 50px auto 20px;
 }
 
-.logos a {
-    text-decoration: none;
+.logos {
+    float: right;
+}
+
+.article-date {
+    float: left;
+    font-size: 14px;
+    margin-top: 5px;
 }
 
 .author {
     font-weight: bold;
+    float: left;
+    margin-bottom: 15px;
 }
 
 .author a {
@@ -161,6 +167,18 @@ main > section:not(.article-title) {
 }
 
 .author:hover a{
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.logos li{
+    display: inline;
+}
+
+.logos a {
     text-decoration: none;
 }
 
@@ -182,8 +200,20 @@ main > section:not(.article-title) {
     height: 25px;
 }
 
+.comments {
+    width: 27px;
+    height: 24px;
+}
 
 /* Paragraphs */
+
+aside {
+    float: right;
+    width: 100px;
+    height: 200px;
+    margin: 100px 50px;
+    background-color: turquoise;
+}
 
 .first-paragraph {
     /* width: 50%;
