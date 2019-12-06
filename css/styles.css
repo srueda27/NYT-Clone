@@ -215,7 +215,15 @@ aside {
     background-color: turquoise;
 }
 
-.first-paragraph {
-    /* width: 50%;
-    margin: 15px auto; */
+.content-section {
+    width: 600px;
+    margin: 15px auto;
+}
+
+.paragraph {
+    font-size: 20px;
+}
+
+.content-separator {
+    display: inline-block;
 }
