@@ -211,7 +211,7 @@ main {
 aside.signup {
     float: right;
     width: 180px;
-    margin: auto 4em;
+    margin: 200px 4em;
 }
 
 aside.signup p{
@@ -239,5 +239,24 @@ aside.signup button {
 }
 
 .content-separator {
-    display: inline-block;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.content-separator * {
+    font-weight: bold;
+}
+
+.content-separator a {
+    color: #567B95;
+}
+
+.content-separator hr {
+    width: 80px;
+    color: gray;
+    margin: 15px auto;
+}
+
+a.no-decoration {
+    text-decoration: none;
 }
