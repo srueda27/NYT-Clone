@@ -208,10 +208,10 @@ main {
 
 /* First ASIDE */
 
-aside.signup {
+aside.content {
     float: right;
     width: 180px;
-    margin: 200px 4em;
+    margin: 100px 4em;
 }
 
 aside.signup p{
@@ -259,4 +259,44 @@ aside.signup button {
 
 a.no-decoration {
     text-decoration: none;
+}
+
+/* Editors Picks Aside */
+
+.editors-pick hr {
+    margin: 15px auto;
+}
+
+.editors-pick img {
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+.editors-pick span {
+    width: 105px;
+    padding: 0 5px;
+    font-size: 14px;
+    float: right;
+}
+
+.editors-pick a {
+    color: rgb(51, 51, 51);
+}
+
+.editors-pick a:hover {
+    color: rgb(51, 51, 51);
+    text-decoration: underline;
+}
+
+.editors-pick div:nth-child(3) span {
+    margin: 25px auto 30px;
+}
+
+.editors-pick > div:nth-child(4) > span {
+    margin: 0 auto 10px;
+}
+
+.editors-pick div:nth-child(5) span {
+    margin: 10px auto 0;
 }
