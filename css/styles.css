@@ -8,11 +8,13 @@
 header {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-bottom: 1px solid lightgray;
+    background-color: white;
     height: 45px;
     padding: 4px 15px 2px;
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 999;
 }
 
 /* <<<<< 1st Div IN HEADER >>>>> */
@@ -91,3 +93,57 @@ div.right-buttons {
     cursor: pointer;
 }
 
+/* <<<<< MAIN SECTION >>>>> */
+
+/* Image Title */
+main {
+    position: relative;
+    top: 45px;
+}
+
+.article-title {
+    text-align: center;
+}
+
+.article-title > h2{
+    font-family: 'Lato', sans-serif;
+    margin: 10px auto 30px 20%;
+    width: 384px;
+    font-size: 39px;
+}
+
+.image > img {
+    width: 945px;
+    height: 532px;
+}
+
+.img-figcaption {
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    color: #666;
+    font-size: 15.2px;
+    line-height: 1.25rem;
+    font-weight: 600;
+    height: 52px;
+    width: 720px;
+    margin: 0 170px;
+    text-align: justify;
+}
+
+.img-figcaption span {
+    color: #888;
+    font-size: 0.9rem;
+    line-height: 1.25rem;
+    font-weight: lighter;
+}
+
+/* Paragraphs */
+
+.first-paragraph {
+    width: 50%;
+    margin: 15px auto;
+}
+
+aside {
+    float: right;
+    width: 210px;
+}
