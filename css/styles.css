@@ -101,6 +101,11 @@ main {
     top: 45px;
 }
 
+main > section:not(.article-title) {
+    width: 600px;
+    margin: 0 auto;
+}
+
 .article-title {
     text-align: center;
 }
@@ -136,9 +141,51 @@ main {
     font-weight: lighter;
 }
 
+/* Logos */
+
+.logos li{
+    display: inline;
+}
+
+.logos a {
+    text-decoration: none;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.author a {
+    text-decoration-color: lightgray;
+    color: black;
+}
+
+.author:hover a{
+    text-decoration: none;
+}
+
+.circle-logo {
+    width: 27px;
+    height: 27px;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.margin-logo {
+    margin-right: 16px;
+}
+
+.tag-logo {
+    width: 16px;
+    height: 25px;
+}
+
+
 /* Paragraphs */
 
 .first-paragraph {
-    width: 50%;
-    margin: 15px auto;
+    /* width: 50%;
+    margin: 15px auto; */
 }
