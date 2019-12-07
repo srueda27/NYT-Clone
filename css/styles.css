@@ -358,3 +358,14 @@ a.no-decoration {
 .paragraphs-image p.fourth-column {
     left: 900px;
 }
+
+.big-image > hr {
+    width: 60px;
+    border: 0.5px solid black;
+    margin: 0 0 15px;
+}
+
+.big-image figcaption {
+    font-size: 13px;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
