@@ -211,11 +211,11 @@ main {
     height: 27px;
 }
 
-.comments-logo-container > div {
+.comments-logo-container > span {
     font-size: 10px;
     position: relative;
-    bottom: 25px;
-    left: 112px;
+    bottom: 12px;
+    right: 25px;
 }
 
 /* First ASIDE */
