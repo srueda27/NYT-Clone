@@ -201,9 +201,21 @@ main {
     height: 25px;
 }
 
-.comments {
+.comments-logo-container {
+    display: inline;
+    text-align: center;
+}
+
+.comments-logo-container > img {
     width: 27px;
-    height: 24px;
+    height: 27px;
+}
+
+.comments-logo-container > div {
+    font-size: 10px;
+    position: relative;
+    bottom: 25px;
+    left: 112px;
 }
 
 /* First ASIDE */
