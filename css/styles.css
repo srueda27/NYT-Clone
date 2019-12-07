@@ -203,7 +203,6 @@ main {
 
 .comments-logo-container {
     display: inline;
-    text-align: center;
 }
 
 .comments-logo-container > img {
@@ -248,6 +247,10 @@ aside.signup button {
 
 .paragraph {
     font-size: 20px;
+}
+
+.paragraph p {
+    margin: 25px auto;
 }
 
 .content-separator {
@@ -311,4 +314,47 @@ a.no-decoration {
 
 .editors-pick div:nth-child(5) span {
     margin: 10px auto 0;
+}
+
+/* Big Image Content */
+
+.big-image {
+    width: 945px;
+    margin: 0 auto;
+}
+
+.big-image > p {
+    margin: 5px auto;
+    font-size: 15px;
+    color: #666;
+}
+
+.paragraphs-image > img {
+    width: 100%;
+}
+
+.paragraphs-image p {
+    position: absolute;
+    width: 200px;
+    font-size: 12px;
+}
+
+.paragraphs-image p.first-line {
+    top: 2920px;
+}
+
+.paragraphs-image p.second-line {
+    top: 3200px;
+}
+
+.paragraphs-image p.second-column {
+    left: 420px;
+}
+
+.paragraphs-image p.third-column {
+    left: 650px;
+}
+
+.paragraphs-image p.fourth-column {
+    left: 900px;
 }
