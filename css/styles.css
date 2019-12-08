@@ -432,3 +432,8 @@ div.image > img {
     width: 330px;
     font-size: 13px;
 }
+
+.article-footer > .logos {
+    top: 5px;
+    position: relative;
+}
