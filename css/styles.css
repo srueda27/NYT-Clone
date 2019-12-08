@@ -251,6 +251,12 @@ aside.signup button {
 
 .paragraph p {
     margin: 25px auto;
+    line-height: 1.875rem;
+}
+
+.paragraph h3,
+.paragraph p {
+    color: #333;
 }
 
 .content-separator {
@@ -368,4 +374,40 @@ a.no-decoration {
 .big-image figcaption {
     font-size: 13px;
     font-family: nyt-franklin,arial,helvetica,sans-serif;
+}
+
+/* Video */
+
+.video {
+    margin-bottom: 50px;
+}
+
+.video > iframe {
+    width: 600px;
+    height: 319px;
+    margin-bottom: 8px;
+}
+
+.video span {
+    margin: 20px auto;
+}
+
+span.caption {
+    color: rgb(75, 73, 73);
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 1.25rem;
+}
+
+span.by-caption {
+    color: #888;
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+/* Image */
+
+.image > img {
+    width: 600px;
+    height: 401px;
 }
