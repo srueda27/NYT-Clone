@@ -80,8 +80,7 @@ div.right-buttons {
     float: right;
 }
 
-.right-buttons button,
-aside.signup button {
+.normal-btn {
     background: #567B95;
     padding: 12px 10px 8px;
     border: 2px solid #567B95;
@@ -346,11 +345,11 @@ a.no-decoration {
 }
 
 .paragraphs-image p.first-line {
-    top: 2920px;
+    top: 3340px;
 }
 
 .paragraphs-image p.second-line {
-    top: 3200px;
+    top: 3620px;
 }
 
 .paragraphs-image p.second-column {
@@ -407,7 +406,29 @@ span.by-caption {
 
 /* Image */
 
-.image > img {
+div.image > img {
     width: 600px;
     height: 401px;
+}
+
+/* Article footer */
+
+.article-footer p {
+    margin-bottom: 20px;
+}
+
+.article-footer > p,
+.article-footer > p > a {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: rgb(102, 102, 102);
+}
+
+.article-footer > p > a:hover {
+    text-decoration: none;
+}
+
+.article-footer > button {
+    width: 330px;
+    font-size: 13px;
 }
