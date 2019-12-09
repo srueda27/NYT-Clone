@@ -371,8 +371,9 @@ a.no-decoration {
     margin: 0 0 15px;
 }
 
-.big-image figcaption {
-    font-size: 13px;
+.big-image > span {
+    font-size: 15px;
+    color: #333;
 }
 
 /* Video */
