@@ -85,6 +85,7 @@ div.right-buttons {
 }
 
 .normal-btn {
+    font-family: 'Libre Franklin', helvetica, arial, sans-serif;
     background: #567B95;
     padding: 12px 10px 8px;
     border: 2px solid #567B95;
@@ -92,6 +93,7 @@ div.right-buttons {
     font-weight: bold;
     color: #fff;
     font-size: 11px;
+    letter-spacing: 0.7px;
 }
 
 /* <<<<< MAIN SECTION >>>>> */
@@ -428,7 +430,7 @@ div.image > img {
 
 .article-footer > button {
     width: 330px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .article-footer > .logos {
