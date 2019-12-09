@@ -1,144 +1,408 @@
 /* <<<<< BASIC SETTINGS >>>>> */
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
-    border-bottom: 1px solid lightgray;
-    background-color: white;
-    height: 45px;
-    padding: 4px 15px 2px;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  height: 45px;
+  padding: 4px 15px 2px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
 }
 
 /* <<<<< 1st Div IN HEADER >>>>> */
 .left-buttons {
-    float: left;
+  float: left;
 }
 
 .left-buttons button {
-    margin-top: 10px;
-    background-color: transparent;
-    border: 0;
-    width: 35px;
-    height: 20px;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 0;
+  width: 35px;
+  height: 20px;
+}
+
+.right-buttons button {
+  background: #567b95;
+  padding: 12px 10px 8px;
+  border: 2px solid #567b95;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 11px;
 }
 
 .left-buttons button:hover {
-    background-color: #f7f7f7;
-    border-radius: 3px;
+  background-color: #f7f7f7;
+  border-radius: 3px;
 }
 
 .left-buttons > .menu-btn {
-    margin-left: 15px;
+  margin-left: 10px;
 }
 
 .left-buttons > .search-btn {
-    margin: auto 20px;
+  margin: auto 20px;
 }
 
-.left-buttons svg{
-    width: 16px;
-    height: 16px;
-    vertical-align: sub;
+.left-buttons svg {
+  width: 16px;
+  height: 16px;
+  vertical-align: sub;
 }
 
 .left-link {
-    text-decoration: none;
-    font-size: 14.25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.7px;
-    line-height: 19px;
-    color: black;
+  text-decoration: none;
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+  color: black;
 }
 
 .left-link:hover {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* <<<<< NYT LOGO >>>>>>> */
 .nyt-svg {
-    height: 27px;
+  height: 27px;
 }
 
 div.nyt-logo {
-    width: 100%;
-    text-align: center;
-    margin-top: 5px;
+  width: 100%;
+  text-align: center;
+  margin-top: 5px;
 }
 
 /* <<<<< RIGHT BUTTONS >>>>>>> */
 div.right-buttons {
-    float: right;
-}
-
-.right-buttons button {
-    background: #567B95;
-    padding: 12px 10px 8px;
-    border: 2px solid #567B95;
-    border-radius: 3px;
-    font-weight: bold;
-    color: #fff;
-    font-size: 11px;
+  float: right;
 }
 
 .right-buttons button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 /* <<<<< MAIN SECTION >>>>> */
 
 /* Image Title */
 main {
-    position: relative;
-    top: 45px;
+  position: relative;
+  top: 45px;
 }
 
 .article-title {
-    text-align: center;
+  text-align: center;
 }
 
-.article-title > h2{
-    font-family: 'Lato', sans-serif;
-    margin: 10px auto 30px 20%;
-    width: 384px;
-    font-size: 39px;
+.article-title > h2 {
+  font-family: 'Lato', sans-serif;
+  margin: 10px auto 30px 20%;
+  width: 384px;
+  font-size: 39px;
 }
 
 .image > img {
-    width: 945px;
-    height: 532px;
+  width: 945px;
+  height: 532px;
 }
 
 .img-figcaption {
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
-    color: #666;
-    font-size: 15.2px;
-    line-height: 1.25rem;
-    font-weight: 600;
-    height: 52px;
-    width: 720px;
-    margin: 0 170px;
-    text-align: justify;
+  font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+  color: #666;
+  font-size: 15.2px;
+  line-height: 1.25rem;
+  font-weight: 600;
+  height: 52px;
+  width: 720px;
+  margin: 0 170px;
+  text-align: justify;
 }
 
 .img-figcaption span {
-    color: #888;
-    font-size: 0.9rem;
-    line-height: 1.25rem;
-    font-weight: lighter;
+  color: #888;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  font-weight: lighter;
 }
 
 /* Paragraphs */
 
 .first-paragraph {
-    width: 50%;
-    margin: 15px auto;
+  width: 50%;
+  margin: 15px auto;
+}
+
+/* <<<<< MORE  ARTICLES SECTION >>>>> */
+
+.more-articles {
+  width: 100%;
+  padding: 0 50px;
+}
+
+.more-articles hr {
+  width: 100%;
+  margin: 80px auto 20px auto;
+  border-top: 1px solid black;
+}
+
+.more-articles h4 {
+  margin-bottom: 20px;
+}
+
+.more-articles-display {
+  width: 70%;
+  float: left;
+
+  /* background: red; */
+}
+
+aside.most-popular {
+  width: 26%;
+  float: right;
+
+  /* background: green; */
+}
+
+/* first row */
+
+.first-photos-row > div {
+  width: 31.5%;
+  display: inline-block;
+}
+
+.first-photos-row {
+  width: 100%;
+}
+
+.first-photos-row img {
+  height: 200px;
+  width: 100%;
+}
+
+.first-photos-row figure {
+  width: 100%;
+}
+
+.first-row-mid-image-div {
+  margin: 0 20px;
+}
+
+.caption-custom {
+  color: grey;
+  text-align: right;
+  font-size: 11px;
+  display: block;
+}
+
+.date-custom {
+  color: grey;
+}
+
+/* second row */
+.second-photos-row {
+  margin-top: 25px;
+}
+
+.second-photos-row > div {
+  width: 31.5%;
+  display: inline-block;
+}
+
+.second-photos-row img {
+  height: 200px;
+  width: 100%;
+}
+
+.second-row-mid-image-div {
+  margin: 0 20px;
+}
+
+.more-articles-display-second-hr {
+  margin: 20px 0 !important;
+}
+
+/* third row */
+.third-photos-row {
+  margin-bottom: 10px !important;
+}
+
+.third-photos-row > div {
+  width: 31.5%;
+  display: inline-block;
+}
+
+.third-photos-row img {
+  height: 200px;
+  width: 100%;
+}
+
+.third-row-mid-image-div {
+  margin: 0 20px;
+}
+
+/* ...  <<<<< MORE  ARTICLES aside SECTION  >>>>> */
+
+.aside-lighter-hr {
+  margin: 10px auto 20px auto !important;
+  border-top: 1px solid #e9e2e2 !important;
+}
+
+.aside-links-lower {
+  text-decoration: none;
+  color: black;
+}
+
+.aside-links-lower:hover {
+  color: grey;
+  transition: color 0.15s;
+}
+
+/* ...  <<<<< MORE  ARTICLES aside SECTION  >>>>> */
+
+footer {
+  clear: both;
+  margin: 0 50px;
+  border-top: 2px solid rgba(202, 202, 202, 0.993);
+}
+
+.underline-footer {
+  clear: both;
+  border-top: 1px solid grey;
+  margin: 50px 50px 1px 50px !important;
+}
+
+.nyt-svg-footer {
+  height: 26px;
+  margin-top: 5px;
+  display: inline-block !important;
+}
+
+.footer-body-heading {
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-body-heading > span {
+  margin-left: 75%;
+  font-size: 11px;
+}
+
+.go-to-home-link {
+  color: navy;
+  text-decoration: none;
+}
+
+.footer-body-main-links {
+  width: 100%;
+  margin-top: 15px;
+}
+
+.footer-body-main-links > div {
+  display: inline-block;
+  clear: initial;
+}
+
+.margin-right-fb {
+  margin-right: 8% !important;
+}
+
+.news > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.opinion > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.arts > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.living > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.more > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.subscribe > a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin: 10px 0;
+}
+
+.base-footer > a {
+  text-decoration: none;
+  margin-left: 20px;
+  color: grey;
+  font-size: 13px;
+}
+
+.news > a:hover {
+  text-decoration: underline;
+}
+
+.opinion > a:hover {
+  text-decoration: underline;
+}
+
+.arts > a:hover {
+  text-decoration: underline;
+}
+
+.living > a:hover {
+  text-decoration: underline;
+}
+
+.more > a:hover {
+  text-decoration: underline;
+}
+
+.subscribe > a:hover {
+  text-decoration: underline;
+}
+
+.footer-body-sidel-hr {
+  border-top: 1px solid #e9e2e2 !important;
+}
+
+.small-font-links {
+  font-size: 12px;
+}
+
+.base-footer {
+  border-top: 2px solid lightgray;
+  padding: 1% 2% 3% 2%;
+}
+
+.base-footer > a:hover {
+  text-decoration: underline;
 }
