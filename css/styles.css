@@ -10,7 +10,6 @@ button {
 }
 
 header {
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-bottom: 1px solid lightgray;
     background-color: white;
     height: 45px;
@@ -120,7 +119,6 @@ main {
 }
 
 .img-figcaption {
-    font-family: nyt-imperial,georgia,'times new roman',times,serif;
     color: #666;
     font-size: 15.2px;
     line-height: 1.25rem;
@@ -233,7 +231,6 @@ aside.signup p{
 
 aside.signup button {
     width: 100%;
-    font-family: nyt-franklin, helvetica, arial, sans-serif;
     text-transform: uppercase;
     font-size: 13px;
 }
@@ -252,6 +249,7 @@ aside.signup button {
 .paragraph p {
     margin: 25px auto;
     line-height: 1.875rem;
+    font-family: 'Domine', serif;
 }
 
 .paragraph h3,
@@ -346,11 +344,11 @@ a.no-decoration {
 }
 
 .paragraphs-image p.first-line {
-    top: 3340px;
+    top: 3660px;
 }
 
 .paragraphs-image p.second-line {
-    top: 3620px;
+    top: 3940px;
 }
 
 .paragraphs-image p.second-column {
@@ -373,7 +371,6 @@ a.no-decoration {
 
 .big-image figcaption {
     font-size: 13px;
-    font-family: nyt-franklin,arial,helvetica,sans-serif;
 }
 
 /* Video */
