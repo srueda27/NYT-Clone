@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+button {
+    cursor: pointer;
+}
+
 header {
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     border-bottom: 1px solid lightgray;
@@ -73,6 +77,7 @@ div.nyt-logo {
     text-align: center;
     margin-top: 5px;
     position: absolute;
+    z-index: -1;
 }
 
 /* <<<<< RIGHT BUTTONS >>>>>>> */
@@ -88,10 +93,6 @@ div.right-buttons {
     font-weight: bold;
     color: #fff;
     font-size: 11px;
-}
-
-.right-buttons button:hover {
-    cursor: pointer;
 }
 
 /* <<<<< MAIN SECTION >>>>> */
