@@ -1,5 +1,6 @@
 # NYT-Clone
 NYT page clone using just float to align all elements
+
 Made the clone from the [New York Times](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html) website.
 
 # Technologies:
