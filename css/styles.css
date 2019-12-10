@@ -348,7 +348,7 @@ aside.signup button {
 .paragraphs-image {
   position: relative;
   height: 580px;
-  background: url("/images/inflation_945.png");
+  background: url("../images/inflation_945.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
