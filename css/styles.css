@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  width: 1280px;
+}
+
 button {
   cursor: pointer;
 }
@@ -340,28 +344,34 @@ aside.signup button {
   margin: 0 auto;
 }
 
-.paragraphs-image > img {
+.paragraphs-image {
+  position: relative;
   width: 100%;
+  height: 590px;
+  background: url("/images/inflation_945.png");
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 .paragraphs-image p.first-line {
-  top: 3660px;
+  top: 150px;
 }
 
 .paragraphs-image p.second-line {
-  top: 3940px;
+  top: 425px;
 }
 
 .paragraphs-image p.second-column {
-  left: 420px;
+  left: 250px;
 }
 
 .paragraphs-image p.third-column {
-  left: 650px;
+  left: 480px;
 }
 
 .paragraphs-image p.fourth-column {
-  left: 900px;
+  left: 730px;
 }
 
 .big-image > hr {
