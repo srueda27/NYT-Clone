@@ -5,8 +5,9 @@
   padding: 0;
 }
 
-body {
+html {
   width: 1280px;
+  margin: 0 auto;
 }
 
 button {
@@ -20,7 +21,7 @@ header {
   padding: 4px 15px 2px;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 1280px;
   z-index: 999;
 }
 
@@ -435,8 +436,8 @@ div.image > img {
 /* <<<<< MORE  ARTICLES SECTION >>>>> */
 
 .more-articles {
-  width: 100%;
-  padding: 0 50px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .more-articles hr {
@@ -461,13 +462,38 @@ aside.most-popular {
 
 /* first row */
 
-.first-photos-row > div {
-  width: 31.5%;
+.first-photos-row > div,
+.second-photos-row > div,
+.third-photos-row > div {
+  width: 225px;
   display: inline-block;
+  position: absolute;
 }
 
-.first-photos-row {
+.footer-body-main-links > div {
+  width: 14%;
+  display: inline-block;
+  position: absolute;
+}
+
+.first-photos-row > div:nth-child(2),
+.second-photos-row > div:nth-child(2),
+.third-photos-row > div:nth-child(2) {
+  left: 225px;
+}
+
+.first-photos-row > div:nth-child(3),
+.second-photos-row > div:nth-child(3),
+.third-photos-row > div:nth-child(3) {
+  right: 0;
+}
+
+.first-photos-row,
+.second-photos-row,
+.third-photos-row {
   width: 100%;
+  position: relative;
+  height: 300px;
 }
 
 .first-photos-row figure {
@@ -494,11 +520,6 @@ aside.most-popular {
   margin-top: 25px;
 }
 
-.second-photos-row > div {
-  width: 31.5%;
-  display: inline-block;
-}
-
 .second-row-mid-image-div {
   margin: 0 20px;
 }
@@ -509,12 +530,7 @@ aside.most-popular {
 
 /* third row */
 .third-photos-row {
-  margin-bottom: 10px !important;
-}
-
-.third-photos-row > div {
-  width: 31.5%;
-  display: inline-block;
+  margin-bottom: 50px !important;
 }
 
 .third-row-mid-image-div {
@@ -542,14 +558,16 @@ aside.most-popular {
 
 footer {
   clear: both;
-  margin: 0 50px;
+  margin: 0 auto;
   border-top: 2px solid rgba(202, 202, 202, 0.993);
+  width: 80%;
 }
 
 .underline-footer {
+  width: 80%;
   clear: both;
   border-top: 1px solid grey;
-  margin: 50px 50px 1px 50px !important;
+  margin: 50px auto 1px auto !important;
 }
 
 .nyt-svg-footer {
@@ -564,7 +582,7 @@ footer {
 }
 
 .footer-body-heading > span {
-  margin-left: 75%;
+  margin-left: 65%;
   font-size: 11px;
 }
 
@@ -588,52 +606,35 @@ footer {
 .footer-body-main-links {
   width: 100%;
   margin-top: 15px;
+  min-height: 400px;
+  position: relative;
 }
 
-.footer-body-main-links > div {
-  display: inline-block;
-  clear: initial;
+.footer-body-main-links > div:nth-child(2) {
+  left: 180px;
 }
 
-.margin-right-fb {
-  margin-right: 8% !important;
+.footer-body-main-links > div:nth-child(3) {
+  left: 380px;
 }
 
-.news > a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  margin: 10px 0;
+.footer-body-main-links > div:nth-child(4) {
+  right: 340px;
 }
 
-.opinion > a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  margin: 10px 0;
+.footer-body-main-links > div:nth-child(5) {
+  right: 180px;
 }
 
-.arts > a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  margin: 10px 0;
+.footer-body-main-links > div:nth-child(6) {
+  right: 10px;
 }
 
-.living > a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  margin: 10px 0;
-}
-
-.more > a {
-  display: block;
-  color: black;
-  text-decoration: none;
-  margin: 10px 0;
-}
-
+.news > a,
+.opinion > a,
+.arts > a,
+.living > a,
+.more > a,
 .subscribe > a {
   display: block;
   color: black;
@@ -643,9 +644,9 @@ footer {
 
 .base-footer > a {
   text-decoration: none;
-  margin-left: 20px;
+  margin-left: 10px;
   color: grey;
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .article-footer > p > a {
@@ -676,30 +677,12 @@ footer {
   text-decoration: underline;
 }
 
-.news > a:hover {
-  text-decoration: underline;
-}
-
-.opinion > a:hover {
-  text-decoration: underline;
-}
-
-.arts > a:hover {
-  text-decoration: underline;
-}
-
-.living > a:hover {
-  text-decoration: underline;
-}
-
-.more > a:hover {
-  text-decoration: underline;
-}
-
-.subscribe > a:hover {
-  text-decoration: underline;
-}
-
+.news > a:hover,
+.opinion > a:hover,
+.arts > a:hover,
+.living > a:hover,
+.more > a:hover,
+.subscribe > a:hover,
 .base-footer > a:hover {
   text-decoration: underline;
 }
@@ -718,5 +701,37 @@ footer {
 
 .base-footer {
   border-top: 2px solid lightgray;
-  padding: 1% 2% 3% 2%;
+  padding: 1% 1% 2% 2%;
+  height: 50px;
+}
+
+
+/* <<< Sticky footer >>>> */
+.clear-sticky {
+  clear: both;
+  height: 60px;
+}
+
+.sticky-foot {
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid black;
+  position: fixed;
+  bottom: 0;
+  background: #fff;
+  text-align: center;
+  padding: 5px;
+}
+
+.sticky-foot-center-text {
+  font-size: 20px;
+}
+
+.sticky-foot-expand-span {
+  margin-left: 200px;
+}
+
+.sticky-foot-arrow-up {
+  font-size: 30px !important;
+  margin-left: 40px;
 }
