@@ -677,6 +677,15 @@ footer {
   text-decoration: underline;
 }
 
+.photos-links {
+  color: black;
+  text-decoration: none;
+}
+
+.photos-links:hover {
+  color: grey;
+}
+
 .news > a:hover,
 .opinion > a:hover,
 .arts > a:hover,
